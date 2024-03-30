@@ -15,7 +15,7 @@ from PIL import Image
 
 mydb=psycopg2.connect(host="localhost",
                         user="postgres",
-                        password="Santhozraj",
+                        password="Password",
                         database="phonepe_data",
                         port="5432")
 cursor=mydb.cursor()
@@ -380,7 +380,7 @@ def top_user_plot_2(df,state):
 def top_chart_transaction_amount(table_name):
     mydb=psycopg2.connect(host="localhost",
                             user="postgres",
-                            password="Santhozraj",
+                            password="Password",
                             database="phonepe_data",
                             port="5432")
     cursor=mydb.cursor()
@@ -508,7 +508,7 @@ def top_chart_transaction_count(table_name):
 def top_chart_registered_users(table_name,state):
     mydb=psycopg2.connect(host="localhost",
                             user="postgres",
-                            password="Santhozraj",
+                            password="Password",
                             database="phonepe_data",
                             port="5432")
     cursor=mydb.cursor()
@@ -575,7 +575,7 @@ def top_chart_registered_users(table_name,state):
 def top_chart_appopens(table_name,state):
     mydb=psycopg2.connect(host="localhost",
                             user="postgres",
-                            password="Santhozraj",
+                            password="Password",
                             database="phonepe_data",
                             port="5432")
     cursor=mydb.cursor()
@@ -644,7 +644,7 @@ def top_chart_appopens(table_name,state):
 def top_chart_register_users(table_name):
     mydb=psycopg2.connect(host="localhost",
                             user="postgres",
-                            password="Santhozraj",
+                            password="Password",
                             database="phonepe_data",
                             port="5432")
     cursor=mydb.cursor()
